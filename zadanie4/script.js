@@ -5,5 +5,5 @@ function pythagorean(){
     var c;
     liczby.sort((x, y) => x - y);
 
-    return (liczby[0] ** 2 + liczby[1] ** 2 === liczby[2] ** 2);
+    return (Math.pow(liczby[0], 2) + Math.pow(liczby[1], 2) === Math.pow(liczby[2], 2));
 }
